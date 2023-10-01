@@ -1,0 +1,65 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		},
+		"editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+		"editor.formatOnPaste": false, // required
+		"editor.formatOnType": false, // required
+		"editor.formatOnSave": true, // optional
+		"[json, md]": {
+			"editor.formatOnSave": false
+		},
+		"[typescript]": {
+			"editor.formatOnSave": true,
+			"editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+		},
+		"[javascript]": {
+			"editor.formatOnSave": true,
+			"editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+		},
+		"[svelte]": {
+			"editor.formatOnSave": true,
+			"editor.defaultFormatter": "svelte.svelte-vscode"
+		},
+		"[html]": {
+			"editor.formatOnSave": true
+		},
+		"[cjs]": {
+			"editor.formatOnSave": true,
+			"editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+		},
+		"[svg]": {
+			"editor.defaultFormatter": "jock.svg"
+		},
+		"editor.formatOnSaveMode": "file", // required to format on save
+		"files.autoSave": "onFocusChange", // optional but recommended
+		"vs-code-prettier-eslint.prettierLast": true, // set as "true" to run 'prettier' last not first
+		"jest.autoRun": {
+			"watch": false,
+			"onSave": "test-file"
+		},
+		"appService.defaultWebAppToDeploy": "None"
+	},
+	"extensions": {
+		"recommendations": [
+			// Must have
+			"dbaeumer.vscode-eslint",
+			"rvest.vs-code-prettier-eslint",
+			"svelte.svelte-vscode",
+			"bradlc.vscode-tailwindcss",
+			//"ms-azuretools.vscode-azureappservice",
+			"EditorConfig.EditorConfig",
+			// Good to have
+			"nrwl.angular-console",
+			"JannisX11.batch-rename-extension",
+			"jock.svg",
+			"stackbreak.comment-divider"
+		]
+	}
+}
